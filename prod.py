@@ -5,11 +5,11 @@ conjuntoB = input("Conjunto B: ").split(",")
 
 def pares(conjuntoA, conjuntoB):
 
-    resultado = []
+    po = []
     for a in conjuntoA:
         for b in conjuntoB:
-                resultado.append((a, b))
-    return resultado
+                po.append((a, b))
+    return po
 
 rr = pares(conjuntoA, conjuntoB)
 
